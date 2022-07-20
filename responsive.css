@@ -1,16 +1,16 @@
-
-
 /* -------------Tablets----------------- */
 @media only screen and (max-width:991.98px) {
     .banner-text {
         width: 50%;
-        margin: 40px 0 40px 40px ;
-    
+        margin: 40px 0 40px 40px;
+
     }
+
     .banner-text h1 {
         font-size: 55px;
         line-height: 70px;
     }
+
     /* --Blog---- */
     .blogs-container {
         display: flex;
@@ -20,17 +20,19 @@
         width: 85vw;
         overflow: hidden;
     }
+
     .side-nav {
         display: flex;
         height: 120px;
         width: 85vw;
         margin-bottom: 40px;
-       
+
         flex-direction: row;
         justify-content: space-evenly;
         align-items: stretch;
         background-color: #ffffff;
     }
+
     .button {
         display: inline-block;
         height: 30px;
@@ -39,13 +41,16 @@
         margin: 20px;
         border: 1px solid #332b2b27;
     }
+
     .blogs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .blog-img img {
         width: 100%;
     }
+
     .blog-button {
         margin: 53px 0 20px 20px;
     }
@@ -55,11 +60,13 @@
         height: 80vh;
         align-items: ;
     }
+
     .container-fluid nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .container-fluid nav a {
         margin: 20px 60px;
     }
@@ -76,24 +83,29 @@
         justify-content: center;
         align-items: center;
     }
+
     .banner-text {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
         margin: 40px 0;
-    
+
     }
+
     .banner-text h1 {
         font-size: 30px;
         line-height: 30px;
     }
+
     .banner-image {
         width: 80%;
     }
+
     .banner-image img {
         width: 76%;
     }
+
     /* blog section */
     .blogs-container {
         display: flex;
@@ -102,6 +114,7 @@
         width: 85vw;
 
     }
+
     .side-nav {
         display: flex;
         height: 245px;
@@ -111,11 +124,13 @@
         justify-content: space-evenly;
         align-items: center;
     }
+
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 50px;
     }
+
     .blog-button {
         margin: 80px 0 20px 20px;
     }
@@ -125,23 +140,28 @@
     .container-fluid {
         height: 85vh;
     }
+
     .container-fluid h1 {
         font-size: 35px;
         margin-top: 50px;
     }
+
     .container-fluid nav {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .container-fluid nav a {
         margin: 10px 60px;
     }
-    .social-icons  {
+
+    .social-icons {
         visibility: visible;
 
     }
-    .social-icons a{
+
+    .social-icons a {
         text-decoration: none;
         font-size: 20px;
         color: #ffffff;
