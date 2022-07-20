@@ -10,6 +10,10 @@
         font-size: 55px;
         line-height: 70px;
     }
+    .banner-image {
+        top: 14%;
+        left: 55%;
+    }
 
     /* --Blog---- */
     .blogs-container {
@@ -78,28 +82,42 @@
 ------------------------------------------- */
 @media only screen and (max-width: 575.98px) {
     .banner {
+        min-height: 790px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .banner-text {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
-        margin: 40px 0;
+        justify-content: center;
+        position: absolute;
+        top: 2%;
 
     }
 
     .banner-text h1 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 40px;
+        line-height: 42px;
+        margin: 40px 40px 0 40px;
+        text-align: center;
+    }
+    .banner-text p {
+        margin: 20px 60px 40px 40px;
+        text-align: center;
     }
 
     .banner-image {
-        width: 80%;
+        width: 90%;
+        position: absolute;
+        bottom: -7px;
+        left: 50%;
+        transform: translate(-40%, 0);
     }
 
     .banner-image img {
