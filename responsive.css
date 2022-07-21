@@ -115,13 +115,14 @@
     .banner-image {
         width: 90%;
         position: absolute;
-        bottom: -7px;
+        top: 4%;
         left: 50%;
-        transform: translate(-40%, 0);
+        transform: translate(-40%, 50%);
     }
 
     .banner-image img {
         width: 76%;
+        height: 50%;
     }
 
     /* blog section */
