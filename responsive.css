@@ -91,24 +91,28 @@
     }
 
     .banner-text {
-        width: 100%;
+        width: 95%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 2%;
+        top: 0;
+        
 
     }
 
     .banner-text h1 {
-        font-size: 40px;
-        line-height: 42px;
-        margin: 40px 40px 0 40px;
+        font-size: 35px;
+        line-height: 35px;
+        margin: -45px 20px 0 -5px;
         text-align: center;
+
     }
     .banner-text p {
-        margin: 20px 60px 40px 40px;
+        font-size: 14px;
+        margin: 20px 40px 20px 20px;
         text-align: center;
     }
 
